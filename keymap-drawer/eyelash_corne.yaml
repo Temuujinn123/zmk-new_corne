@@ -78,7 +78,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - HOME
   - PG UP
-  - RGB HUD
+  - {t: '$$mdi:transfer$$', type: trans}
   - RGB HUI
   - KP 1
   - KP 2
