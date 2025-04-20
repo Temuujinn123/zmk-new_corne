@@ -50,8 +50,8 @@ layers:
   - SYMBOL
   - $$mdi:apple-keyboard-option$$
   NUMBER:
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB SAD
+  - RGB SAI
   - KP 7
   - KP 8
   - KP 9
@@ -64,7 +64,7 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB ON
+  - RGB TOG
   - KP 4
   - KP 5
   - KP 6
@@ -72,14 +72,14 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - RGB COLOR HSB(0,99,49)
+  - RGB COLOR HSB(360,100,50)
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - HOME
   - PG UP
-  - {t: '$$mdi:transfer$$', type: trans}
-  - RGB OFF
+  - RGB HUD
+  - RGB HUI
   - KP 1
   - KP 2
   - KP 3
