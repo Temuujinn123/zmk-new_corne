@@ -57,7 +57,7 @@ layers:
   - KP 9
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - GLOBE
+  - AC NEXT KEYBOARD LAYOUT SELECT
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
