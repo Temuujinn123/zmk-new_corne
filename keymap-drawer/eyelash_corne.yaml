@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
-  QWERTY:
+  Colemak DHm:
   - $$mdi:keyboard-tab$$
   - Q
   - W
