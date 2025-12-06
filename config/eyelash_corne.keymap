@@ -30,12 +30,6 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
-
-        backspace: backspace {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            bindings = <&kp BACKSPACE>, <&kp RA(BACKSPACE)>;
-        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -58,7 +52,7 @@
         default_layer {
             display-name = "Colemak DHm";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp F     &kp P  &kp B                               &kp UP                &kp J        &kp L  &kp U      &kp Y    &kp SEMICOLON  &backspace
+&kp TAB    &kp Q  &kp W  &kp F     &kp P  &kp B                               &kp UP                &kp J        &kp L  &kp U      &kp Y    &kp SEMICOLON  &kp BACKSPACE
 &td0       &kp A  &kp R  &kp S     &kp T  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp M        &kp N  &kp E      &kp I    &kp O          &mt RIGHT_SHIFT SQT
 &kp LCTRL  &kp Z  &kp X  &kp C     &kp D  &kp V        &kp SPACE              &kp DOWN              &kp K        &kp H  &kp COMMA  &kp DOT  &kp FSLH       &kp ESC
                          &kp LGUI  &mo 1  &lt 3 SPACE                                               &lt 3 ENTER  &mo 2  &kp RALT
