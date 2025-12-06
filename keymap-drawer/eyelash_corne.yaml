@@ -13,7 +13,7 @@ layers:
   - U
   - Y
   - {t: ;, s: ':'}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - '&new_macro'
   - '&td0'
   - A
   - R
