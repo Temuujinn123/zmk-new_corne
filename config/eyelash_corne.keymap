@@ -30,6 +30,13 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
+
+        backspace: backspace {
+            compatible = "zmk,behavior-tap-dance";
+            label = "BACKSPACE";
+            #binding-cells = <0>;
+            bindings = <&kp BACKSPACE>, <&kp RA(BACKSPACE)>;
+        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -46,27 +53,13 @@
         tap-ms = <30>;
     };
 
-    macros {
-        new_macro: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&kp BACKSPACE>,
-                <&macro_tap>,
-                <&macro_tap>,
-                <&kp RA(BACKSPACE)>;
-
-            label = "NEW_MACRO";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp F     &kp P  &kp B                               &kp UP                &kp J        &kp L  &kp U      &kp Y    &kp SEMICOLON  &new_macro
+&kp TAB    &kp Q  &kp W  &kp F     &kp P  &kp B                               &kp UP                &kp J        &kp L  &kp U      &kp Y    &kp SEMICOLON  &backspace
 &td0       &kp A  &kp R  &kp S     &kp T  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp M        &kp N  &kp E      &kp I    &kp O          &mt RIGHT_SHIFT SQT
 &kp LCTRL  &kp Z  &kp X  &kp C     &kp D  &kp V        &kp SPACE              &kp DOWN              &kp K        &kp H  &kp COMMA  &kp DOT  &kp FSLH       &kp ESC
                          &kp LGUI  &mo 1  &lt 3 SPACE                                               &lt 3 ENTER  &mo 2  &kp RALT
