@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   Colemak DHm:
-  - $$mdi:keyboard-tab$$
+  - A
   - Q
   - W
   - F
